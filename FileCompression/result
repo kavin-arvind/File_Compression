@@ -1,0 +1,6 @@
+mkdir comps decomps
+g++ -std=c++20 main.cpp -o main
+./main inputs/part3.txt 3
+Success!
+Ratio of final/original: 25896/139232 = 18.5992%
+diff inputs/part3.txt decomps/d3.txt
